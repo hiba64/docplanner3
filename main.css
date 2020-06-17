@@ -1,0 +1,983 @@
+.logo-docplanner{
+        width: 268px;
+    height: 33px;
+     margin-top: 2px; 
+  /*   position: relative; */
+}
+.image{margin-top: 15px;
+
+    padding-top: 100px; }
+nav { display: flex;
+        justify-content:space-around  ;
+        z-index: 99;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        position: fixed;
+        margin-top: -20px;
+      
+}
+
+ul 
+{list-style-type: none;   /* enlever les puces */
+     display: flex; 
+       }
+     
+     nav li a{
+        margin-right:20px;
+        font-size: 15px;
+        Color:#ababab;
+        text-decoration: none;
+        font-family: Helvetica,Arial,sans-serif;
+  }
+ 
+    
+    .dropdowns{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    
+   
+    }
+    .item1{
+        color: rgb(0, 179, 155);
+        cursor: pointer;
+        }
+      
+        .item2:hover{
+        color: rgb(0, 179, 155);
+        cursor: pointer;
+        }
+        .items3{
+        font-family: 'PT+Sans', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        color: rgba(116,116,116);
+        position: relative;
+        display: inline-block;     
+        }
+        .item3:hover{
+        color: rgb(0, 179, 155);
+        cursor: pointer; 
+        display: block;
+         
+        }
+    .item3:hover .dropdowns{ display: block;}
+    .dropdowns a{
+    color: rgba(116,116,116);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    font-family: 'PT+Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    } 
+    .dropdowns a:hover{ 
+    color: rgb(0, 179, 155); 
+    background-color: rgba(131, 99, 99, 0.26)
+    }
+    
+  .container{text-align: center;
+    margin: 20px 70px 50px 85px ;
+       
+      }
+      .title{
+       
+        color: #00b39b;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 34px;
+     font-weight: 300; 
+     line-height:44.2px ; 
+    }
+    
+    .section1{
+        width:100%;
+        height: 230px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row; 
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color:  #747474;
+        margin-top: 40px;
+    }
+   
+    .parag1{
+  
+
+    width: 477px;
+   
+    margin-left: 190px;
+   
+    }
+    .parag2{
+     
+        width: 477px;
+       
+        margin-right: 185px;
+        
+    }
+    .section2{
+        width:100%;
+       /* position: relative; */
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .parag3{
+        width: 475px;
+        height: 380px;
+        background-color:  #00ccb1;
+        border-radius: 10px;
+        padding-top: 27px;
+        position: relative;
+        margin-left: 170px;
+        
+     }
+     .parag31{
+        width: 355px;
+      /*  height: 87px; */
+    }
+   .span1{
+        padding-top: 27px;
+        margin-left: 39px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        color:#fff;
+        margin-bottom: 8px
+        }
+       .titre31{
+        margin-left: 41px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 33.8px;
+        color: rgb(255, 255, 255);
+        margin-top: 8px;
+        margin-bottom: 16.5;
+        width: 355px
+        } 
+        .parag32{
+           display: flex;
+           flex-direction: row;
+           
+        } 
+        .select1{
+            height: 40px;
+            width: 180px;
+            padding-top: 12px;
+            padding-bottom: 13px;
+            padding-left: 18px;
+            padding-right: 11px;
+            margin-top: 10px;
+            margin-left: 40px;
+        border-radius: 5px;
+        
+        
+      }
+      .absoulote{
+        position: absolute;
+        width:250px;
+        height:300px;
+        right: 0px;  
+        margin-top: 20px;
+        margin-bottom: -20px;
+        overflow: hidden;
+        height: 217px;  
+   
+    }
+    .logo1{
+        width:350px;
+    
+    
+      }  
+      .parag4{
+        width: 475px;
+        height: 380px;
+        background-color: #3D83DF;
+        border-radius: 10px;
+        padding-top: 27px;
+       position: relative; 
+        margin-right: 170px
+    }
+    .parag41{
+        width: 355px;
+     
+    }
+    .span2{
+        padding-top: 27px;
+        margin-left: 39px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 8px;
+        }
+        .titre3{
+            margin-left: 41px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 33.8px;
+            color:#fff;
+            margin-top: 8px;
+            width: 355px
+            }
+         
+            .absoulote1{
+                position: absolute;
+                width:250px;
+                height:300px;
+                right: 0px;  
+                margin-top: 20px;
+                margin-bottom: -20px;
+                overflow: hidden;
+                height: 217px;  
+           
+            }
+            .logo2{
+                width:350px;}
+                .section3{
+                    display: flex;
+                    justify-content: space-around; 
+                    flex-wrap: wrap  
+                }
+                .titre4{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 26px;
+                font-weight: 300;
+                line-height: 33.8px;
+                color: rgb(0, 179, 155)
+                }
+                .parag5{
+                    width: 194px;
+                    height: 89px;
+                    margin-left: 100px;
+                    margin-top: 32.5px
+                }
+                .parag6{
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    width: 660px;
+                    height: 74px;
+                    margin-top: 58px;  
+                }
+                .icon1{
+                font-family: "PT+Sans", Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #747474;
+                padding: 0 20px;
+                height: 24px;
+                }
+                .icon1:hover{
+                    color: #00BDC1;
+                    cursor: pointer;
+                }
+                .icon2{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #747474;
+                padding: 0 20px; 
+                height: 24px;  
+                }
+                .icon2:hover{
+                color: #00BDC1;
+                cursor: pointer;  
+                }
+                .icon3{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #747474;
+                padding: 0 20px;
+                height: 24px;
+                }
+                .icon3:hover{
+                    color: #00BDC1;
+                    cursor: pointer;
+                }
+                .icon4{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #747474;
+                padding: 0 20px;
+                height: 24px;
+                }
+                .icon4:hover{
+                    color: #00BDC1;
+                    cursor: pointer;
+                }
+                .icon5{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #747474;
+                padding: 0 20px;
+                height: 24px;
+                }
+                .icon5:hover{
+                    color: #00BDC1;
+                    cursor: pointer;
+                }
+                .section4{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: row;
+                    width: 100%;
+                    background-color:#D6F5F5;
+                    margin-top: 63px;
+                    height:610px;
+                    background-image: url('https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/jcmy9zzlqh682l0my9p3' );
+                    background-repeat: no-repeat;
+                    background-position: bottom -100px left 50px;
+                    background-size :30%;
+                    position: relative;
+                }
+                .div1{
+                    display:flex;
+                    flex-direction: column;
+                    width: 417px;
+                    height: 150px;
+                    margin-left: 187px;
+                    margin-top: 80px
+                }
+                .titre5{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 300;
+                line-height: 44.2px;
+                color: rgb(0, 179, 155);
+                
+                }
+                .parag7{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: rgb(116, 116, 116)
+                }
+                .div2{
+                    display: flex ;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    width: 485px;
+                    height: 555px;
+                }
+                .div2-1{
+                    display: flex;
+                    flex-direction: column;
+                    width: 230px;
+                    height: 526px;
+                }
+                .div2-1-1{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 228px;
+                    height: 252px;
+                    background-color: white;
+                    border-radius: 10px;
+                    margin-top: 48px;
+                    margin-bottom: 10px;
+                    
+                }
+                .h2-1-1{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 31.2px;
+                color: rgb(0, 179, 155);
+                margin-left: 49px;
+                margin-right: 47px;
+                width: 131px;
+                height: 54px;
+                text-align: center;
+                } 
+                .p2-1-1{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16.9px;
+                color: rgb(116, 116, 116);
+                width: 190px;
+                height: 44px;
+                
+                }
+                .div2-1-2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 228px;
+                height: 253px;
+                background-color: white;
+                border-radius: 10px;
+                padding-top: 36px;
+                margin-top: 10px;
+                margin-bottom: 31px;  
+                }
+                .h2-1-2{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 31.2px;
+                color: rgb(0, 179, 155);
+                margin-left: 49px;
+                margin-right: 47px;
+                width: 185px;
+                height: 58px;  
+                text-align: center;
+                }
+                .p2-1-2{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16.9px;
+                color: rgb(116, 116, 116);
+                width: 190px;
+                height: 44px;
+                margin-left: 58px;
+                }
+                .div2-2{
+                display: flex;
+                flex-direction: column;
+                width: 230px;
+                height: 526px; 
+                }
+                .div2-2-1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 228px;
+                height: 252px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+                padding-top: 53px;
+                
+                }
+                .h2-2-1{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 31.2px;
+                color: rgb(0, 179, 155);
+                width: 149px;
+                height: 51px;
+                text-align: center;
+                }
+                .p2-2-1{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16.9px;
+                color: rgb(116, 116, 116);  
+                }
+                .div2-2-2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 228px;
+                height: 252px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-bottom: 59px;
+                padding-top: 53px;
+                padding-bottom: 20px
+                }
+                .h2-2-2{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 31.2px;
+                color: rgb(0, 179, 155);
+                width: 149px;
+                height: 51px;  
+                text-align: center;
+                }
+                .p2-2-2{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16.9px;
+                color: rgb(116, 116, 116); 
+                }
+               
+                .div3{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                }
+                .h-div3{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 39px;
+                color: rgb(0, 179, 155);
+                width: 383px;
+                height: 68px;
+                }
+                .p-div3{
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: rgb(116, 116, 116);
+                width: 443px;
+                height: 90px;
+                }
+                .wrapper {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    
+                  
+                  }
+                  .div4{
+                    
+                    width: 314px;
+                    height: 345px;
+                    background-color: white;
+                    margin-bottom: 25px;
+                    border-radius: 10px;
+                    overflow: hidden; 
+                    margin-left: 186px;
+                    margin-right: 12.5px 
+                    }
+                    .div4:hover{
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                       cursor: pointer;   
+                       }
+                   
+                    .div4-1{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        width: 278px;
+                        height: 31px
+                    }
+                    .p4-1{
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: rgb(116, 116, 116);
+                    }
+                    .s4-1{
+                        border: #8FD7FF;
+                          background:  #1662C6;
+                          font-family: 'Raleway', sans-serif;
+                          font-size: 14px;
+                          color: white;
+                          margin-bottom: 25px;
+                          margin-top: 14px;
+                          padding-top: 13px;
+                          padding-left: 14px;
+                          border-radius: 10px;
+                          height:25px;
+                          width: 130px  
+                        }
+                        .s4-1:hover{
+                            opacity: 0.7;
+                          }
+                          .div5{
+                          width: 314px;
+                          height: 345px;
+                          background-color: white;
+                          margin-bottom: 25px;
+                          border-radius: 10px;
+                          overflow: hidden; 
+                          margin-left: 12.5px;
+                          margin-right: 12.5px 
+                          }
+                          .div5:hover{
+                           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                          cursor: pointer;   
+                          }
+                          .img-div5{
+                          width: 309px;
+                          height: 281px;
+                          left: 0;  
+                          }
+                          .div5-1{
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-around;
+                          width: 278px;
+                          height: 31px   
+                          }
+                          .p5-1{
+                          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                          font-size: 18px;
+                          font-weight: 400;
+                          line-height: 30px;
+                          color: rgb(116, 116, 116);  
+                          }
+                          .s5-1{
+                          border: #8FD7FF;
+                          background:  #1662C6;
+                          font-family: 'Raleway', sans-serif;
+                          font-size: 14px;
+                          color: white;
+                          margin-bottom: 25px;
+                          margin-top: 14px;
+                          padding-top: 13px;
+                          padding-left: 14px;
+                          border-radius: 10px;
+                          height:25px;
+                          width: 130px  
+                          }
+                          .s5-1:hover{
+                         opacity: 0.7; 
+                          }
+                          .div5{
+                            width: 314px;
+                            height: 345px;
+                            background-color: white;
+                            margin-bottom: 25px;
+                            border-radius: 10px;
+                            overflow: hidden; 
+                            margin-left: 12.5px;
+                            margin-right: 12.5px 
+                            }
+                            .div5:hover{
+                             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                            cursor: pointer;   
+                            }
+                            .img-div5{
+                            width: 309px;
+                            height: 281px;
+                            left: 0;  
+                            }
+                            .div5-1{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            width: 278px;
+                            height: 31px   
+                            }
+                            .p5-1{
+                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            color: rgb(116, 116, 116);  
+                            }
+                            .s5-1{
+                            border: #8FD7FF;
+                            background:  #1662C6;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 14px;
+                            color: white;
+                            margin-bottom: 25px;
+                            margin-top: 14px;
+                            padding-top: 13px;
+                            padding-left: 14px;
+                            border-radius: 10px;
+                            height:25px;
+                            width: 130px  
+                            }
+                            .s5-1:hover{
+                           opacity: 0.7; 
+                            }
+                            .div6{
+                            width: 314px;
+                            height: 345px;
+                            background-color: white;
+                            margin-bottom: 25px;
+                            border-radius: 10px;
+                            overflow: hidden;  
+                            margin-left: 12.5px;
+                            margin-right: 186px 
+                            }
+                            .div6:hover{
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                            cursor: pointer;       
+                            }
+                            .img-div6{
+                                width: 309px;
+                                height: 281px;
+                                left: 0;  
+                                }
+                                .div6-1{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-around;
+                                width: 278px;
+                                height: 31px     
+                                }
+                                .p6-1{
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 30px;
+                                color: rgb(116, 116, 116);   
+                                }
+                                .s6-1{
+                                border: #8FD7FF;
+                                background: #1662C6;
+                                font-family: 'Raleway', sans-serif;
+                                font-size: 14px;
+                                color: white;
+                                margin-bottom: 25px;
+                                margin-top: 14px;
+                                padding-top: 13px;
+                                padding-left: 14px;
+                                border-radius: 10px;
+                                height:25px;
+                                width: 130px    
+                                }
+                                .s6-1:hover{
+                                    opacity: 0.7;   
+                                }
+                                .section8{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    width: 100%;
+                                    margin-top: 23px
+                                    }
+                                    .div7{
+                                        width: 314px;
+                                        height: 345px;
+                                        background-color: white;
+                                        margin-bottom: 25px;
+                                        border-radius: 10px;
+                                        overflow: hidden;
+                                        margin-left: 186px;
+                                        margin-right: 12.5px
+                                        }
+                                        .div7:hover{
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            cursor: pointer;
+                                        }
+                                        .img-div7{
+                                            width: 309px;
+                                            height: 281px;
+                                            left: 0;
+                                        }
+                                        .div7-1{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-around;
+                                            width: 278px;
+                                            height: 31px
+                                        }
+                                        .p7-1{
+                                        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                        font-size: 18px;
+                                        font-weight: 400;
+                                        line-height: 30px;
+                                        color: rgb(116, 116, 116);
+                                        }
+                                        .s7-1{
+                                            border: #8FD7FF;
+                                            background: #1662C6;
+                                            font-family: 'Raleway', sans-serif;
+                                            font-size: 14px;
+                                            color: white;
+                                            margin-bottom: 25px;
+                                            margin-top: 14px;
+                                            padding-top: 13px;
+                                            padding-left: 14px;
+                                            border-radius: 10px;
+                                            height:25px;
+                                            width: 130px
+                                            }
+                                            .s7-1:hover{
+                                                opacity: 0.7;
+                                            }
+                                            .div8{
+                                            width: 314px;
+                                            height: 345px;
+                                            background-color: white;
+                                            margin-bottom: 25px;
+                                            border-radius: 10px;
+                                            overflow: hidden; 
+                                            margin-left: 12.5px;
+                                            margin-right: 12.5px 
+                                            }
+                                            .div8:hover{
+                                             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            cursor: pointer;   
+                                            }
+                                            .img-div8{
+                                            width: 309px;
+                                            height: 281px;
+                                            left: 0;  
+                                            }
+                                            .div8-1{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-around;
+                                            width: 278px;
+                                            height: 31px   
+                                            }
+                                            .p8-1{
+                                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                            font-size: 18px;
+                                            font-weight: 400;
+                                            line-height: 30px;
+                                            color: rgb(116, 116, 116);  
+                                            }
+                                            .s8-1{
+                                            border: #8FD7FF;
+                                            background: #1662C6;
+                                            font-family: 'Raleway', sans-serif;
+                                            font-size: 14px;
+                                            color: white;
+                                            margin-bottom: 25px;
+                                            margin-top: 14px;
+                                            padding-top: 13px;
+                                            padding-left: 14px;
+                                            border-radius: 10px;
+                                            height:25px;
+                                            width: 130px  
+                                            }
+                                            .s8-1:hover{
+                                            opacity: 0.7;
+                                            }
+                                            .div9{
+                                            width: 314px;
+                                            height: 345px;
+                                            background-color: white;
+                                            margin-bottom: 25px;
+                                            border-radius: 10px;
+                                            overflow: hidden;  
+                                            margin-left: 12.5px;
+                                            margin-right: 186px 
+                                            }
+                                            .div9:hover{
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            cursor: pointer;       
+                                            }
+                                            .img-div9{
+                                            width: 309px;
+                                            height: 281px;
+                                            left: 0;  
+                                            }
+                                            .div9-1{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-around;
+                                            width: 278px;
+                                            height: 31px     
+                                            }
+                                            .p9-1{
+                                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                            font-size: 18px;
+                                            font-weight: 400;
+                                            line-height: 30px;
+                                            color: rgb(116, 116, 116);  
+                                            }
+                                            .s9-1{
+                                            border: #8FD7FF;
+                                            background: #1662C6;
+                                            font-family: 'Raleway', sans-serif;
+                                            font-size: 14px;
+                                            color: white;
+                                            margin-bottom: 25px;
+                                            margin-top: 14px;
+                                            padding-top: 13px;
+                                            padding-left: 14px;
+                                            border-radius: 10px;
+                                            height:25px;
+                                            width: 130px ;
+                                            }
+                                            .s9-1:hover{
+                                               opacity: 0.7;}
+                                               .section10{
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 100%
+                                            }
+
+                                            hr{
+                                                width: 100%;
+                                            
+                                                color: gray;
+                                                opacity: 0.1;
+                                                
+                                            }   
+                                            .div10{
+                                                width: 695px;
+                                                height: 15px;
+                                                margin-left: 345px;
+                                                margin-right: 345px;
+                                                margin-top: 70px;
+                                                margin-bottom: 12px;
+                                            }
+                                            .div10{
+                                                width: 695px;
+                                                height: 15px;
+                                                margin-left: 345px;
+                                                margin-right: 345px;
+                                                margin-top: 70px;
+                                                margin-bottom: 12px;
+                                            }    
+                                            .p-div10{
+                                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                                line-height: 15.6px;
+                                                color: rgb(171, 171, 171)
+                                                }
+                                                .Poland , .Turkey , .Spain, .Italy ,.Czech ,.Mexico ,.Colombia , .Brazil,.Argentina ,.Chile{
+                                                    color: #3D83DF;
+                                                    text-decoration: none;
+                                                }
+                                                .Poland:hover , .Turkey:hover, .Spain:hover,.Italy:hover,.Czech:hover ,.Mexico:hover ,.Colombia:hover , .Brazil:hover,.Argentina:hover ,.Chile:hover{
+                                                    text-decoration: underline;
+                                                    color: #3D83DF;
+                                                }
+                     .p-div11{  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 15.6px;
+                        color: rgb(171, 171, 171);}
+                        .p-div12
+                        {  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 15.6px;
+                            color: rgb(171, 171, 171);
+                        margin-top:1px;}
+                      /*responsive design */
+                      @media (max-width: 576px) {
+                            .Menu{
+                              display:block;
+                              clear:both;
+                    background-color: hsl(308, 100%, 50%);
+                            }
+                          }
+                          @media (min-width: 768px) and (max-width: 992px) 
+                        { .Menu{
+                            display:block;
+                            clear:both;
+                  background-color:blue;
+                          }
